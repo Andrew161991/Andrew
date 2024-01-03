@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  text-align: center;
+  margin: 10px;
+}
+div{
+  display: block;
+}
+body{
+  background-color: #f7f3f380;
+  color: rgb(63, 63, 59);
+}
+header{
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #434444;
+  color: rgb(128, 128, 148);
+}
+header > span{
+  color: rgb(245, 236, 236);
+  font-weight: 600;
+}
+header > p{
+  font-size: .9em;
+  font-weight: 900;
+  
+}
+/* вынести все на середину */
+li{
+  border: 1px solid ;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 30rem;
+  letter-spacing: 1px;
+}
+section li{
+  list-style: none;
+}
+.content 
+p {
+  padding: 1rem 0;
+}
+h3{
+  margin: 1rem;
+}
+.ps{
+  text-decoration: underline;
+}
+.centered{
+  text-align: center;
+}
+.control{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 40%;
+  margin: 1rem ;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
